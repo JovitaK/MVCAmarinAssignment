@@ -11,7 +11,7 @@ namespace AmarinAssignmenmentMVC.Models
         [Key]
         public int CustomerID { get; set; }
 
-        public int Name { get; set; }
+        public string Name { get; set; }
 
     }
 }
