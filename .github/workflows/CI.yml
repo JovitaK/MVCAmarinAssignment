@@ -24,7 +24,7 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Build and Push Docker Image
-      uses: mr-smithers-excellent/docker-build-push@v5
+      uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: kjovita/my_docker
         registry: docker.io
